@@ -1,0 +1,30 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "frnt-emd para el consumo de api en .net",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./bin/www.js",
+    "start-dev": "DEBUG=front-end:* nodemon ./bin/www.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adolfo9585/front-end.git"
+  },
+  "author": "Adolfo Esparza Vazquez <adolfo9585@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adolfo9585/front-end/issues"
+  },
+  "homepage": "https://github.com/adolfo9585/front-end#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
